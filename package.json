@@ -16,7 +16,7 @@
   ],
   "types": "./dist/index.d.ts",
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "rm -r dist && tsc",
     "test": "tsc --noEmit && jest"
   },
   "repository": {
