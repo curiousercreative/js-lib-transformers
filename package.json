@@ -6,7 +6,10 @@
     "node": ">=16"
   },
   "type": "module",
-  "exports": "dist/src/index.js",
+  "exports": {
+    ".": "dist/src/index.js",
+    "./src": "src"
+  },
   "scripts": {
     "prepare": "tsc",
     "test": "tsc --noEmit && jest"
