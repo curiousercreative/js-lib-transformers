@@ -6,6 +6,7 @@
  */
 
 export { default as arrayify } from './arrayify';
+export { default as booleanify } from './booleanify';
 export { default as capitalize } from './capitalize';
 export { default as e164ize } from './e164ize';
 export { default as functionify } from './functionify';
