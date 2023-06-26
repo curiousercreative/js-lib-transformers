@@ -1,0 +1,36 @@
+{
+  "name": "transformers",
+  "version": "1.0.0",
+  "description": "Library of simple and common data tranformers",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "exports": "dist/src/index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "tsc --noEmit && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curiousercreative/js-lib-transformers.git"
+  },
+  "keywords": [
+    "transformers",
+    "type",
+    "data",
+    "manipulation"
+  ],
+  "author": "curiousercreative",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curiousercreative/js-lib-transformers/issues"
+  },
+  "homepage": "https://github.com/curiousercreative/js-lib-transformers#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  }
+}

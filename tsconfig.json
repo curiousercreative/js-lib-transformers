@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "target": "es2020",
+    "outDir": "dist"
+  },
+  "exclude": [
+    "**/*.test.ts",
+  ],
+}
