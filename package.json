@@ -7,9 +7,13 @@
   },
   "type": "module",
   "exports": {
-    ".": "dist/src/index.js",
-    "./src": "src"
+    ".": "src",
+    "./dist": "dist"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prepare": "tsc",
     "test": "tsc --noEmit && jest"
