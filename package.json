@@ -5,15 +5,16 @@
   "engines": {
     "node": ">=16"
   },
+  "type": "module",
   "exports": {
     ".": "src",
     "./dist": "dist"
   },
-  "type": "module",
   "files": [
     "dist",
     "src"
   ],
+  "types": "./dist/index.d.ts",
   "scripts": {
     "prepare": "tsc",
     "test": "tsc --noEmit && jest"
