@@ -4,6 +4,9 @@ describe('e164ize', () => {
   test('should be a function', () => {
     expect(typeof e164ize).toBe('function');
   });
+  test('1 (323) 323-2323', () => {
+    expect(e164ize('1 (323) 323-2323')).toBe('+13233232323');
+  });
   test('(323) 323-2323', () => {
     expect(e164ize('(323) 323-2323')).toBe('+13233232323');
   });
