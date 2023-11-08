@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
     "lib": ["ES2021"],
     "module": "node16",
     "moduleResolution": "node16",
