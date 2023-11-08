@@ -1,4 +1,4 @@
-import isNumeric from '../../util/isNumeric';
+import isNumeric from '../../util/isNumeric.js';
 
 /**
  * converts strings '0', '1', etc to numbers

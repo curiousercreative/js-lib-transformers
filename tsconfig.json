@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "declarationMap": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2021"],
+    "module": "node16",
+    "moduleResolution": "node16",
+    "outDir": "dist",
     "rootDir": "src",
-    "target": "es2020",
-    "outDir": "dist"
+    "target": "ES2021"
   },
   "exclude": [
-    "**/*.test.ts",
-  ],
+    "**/*.test.ts"
+  ]
 }

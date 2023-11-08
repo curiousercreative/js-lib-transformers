@@ -1,4 +1,4 @@
-import capitalize from './capitalize';
+import capitalize from './capitalize.js';
 
 /**
  * convert a string to pascal casing and treat - and _ as word delimiters

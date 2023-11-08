@@ -1,5 +1,5 @@
-import capitalize from './capitalize';
-import titlize from './titlize';
+import capitalize from './capitalize.js';
+import titlize from './titlize.js';
 
 /**
  * convert a machine readable string to a human readable string
