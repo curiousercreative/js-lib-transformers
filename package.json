@@ -7,8 +7,8 @@
   },
   "type": "module",
   "exports": {
-    ".": "./src",
-    "./dist": "./dist"
+    "default": "./src",
+    "dist": "./dist"
   },
   "files": [
     "dist",
